@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)file:///Z:/Downloads/Leaves%20Status.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>
+        Leaves Status
+    </title>
+    <link rel="shortcut icon" href="https://academic.bits-pilani.ac.in/SWD/Student/Images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./index_files/mystyle.css">
+    <link type="text/css" href="./index_files/reset.css" rel="stylesheet">
+    <link type="text/css" href="./index_files/module.css" rel="stylesheet">
+    <link type="text/css" href="./index_files/main.css" rel="stylesheet">
+    <link type="text/css" href="./index_files/jquery.autocomplete.css" rel="stylesheet">
+    <script type="text/javascript" src="./index_files/jquery-1.4.1.min.js.download"></script>
+    <script type="text/javascript" src="./index_files/jquery.colorbox.js.download"></script>
+    <script type="text/javascript" src="./index_files/main.js.download"></script>
+    <script type="text/javascript" src="./index_files/jquery.min.js.download"></script>
+    <script type="text/javascript" src="./index_files/datetimepicker.js.download"></script>
+    <script type="text/javascript" src="./index_files/Disable_rightclick.js.download"></script>
+    <script type="text/javascript" src="./index_files/Footer.js.download"></script>
+    <script type="text/javascript" src="./index_files/Disable_BackButton.js.download"></script>
+    <script type="text/javascript" src="./index_files/jquery.autocomplete.js.download"></script>
+    <link type="text/css" href="./index_files/datepicker_style.css" rel="stylesheet">
+    <script type="text/javascript" src="./index_files/jquery-1.7.2.min.js.download"></script>
+    <script type="text/javascript" src="./index_files/jquery-ui.js.download"></script>
+
+
+
+    <script type="text/javascript">
+        var window_style = "width=900,height=1000,toolbar=0,menubar=0,location=0,status=yes,scrollbars=yes,resizable=yes,left=50,top=50";
+        function Popup_window(window_url) {
+            window.open(window_url, "", window_style);
+        }
+    </script>
+    <script>
+        // This function will run when the page is loaded
+        window.onload = function () {
+            // This function will run every second
+            setInterval(function () {
+                // Create a new Date object
+                var date = new Date();
+                // Define the locale and options for formatting
+                var locale = "en-US"; // For American English
+                var options = {
+                    weekday: "long", // For full name of the weekday
+                    year: "numeric", // For four-digit year
+                    month: "long", // For full name of the month
+                    day: "2-digit" // For two-digit day
+                };
+                // Format the date using toLocaleDateString
+                var dateStr = date.toLocaleDateString(locale, options);
+                // Display the date in the span element
+                document.getElementById("ctl00_lbl_current_date").innerHTML = dateStr;
+            }, 1000); // 1000 milliseconds = 1 second
+        };
+
+    </script>
+
+
+</head>
+
+<body><div class="note"></div><div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" style="padding-bottom: 0px; padding-right: 0px; display: none;"><div id="cboxWrapper" style=""><div style=""><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxLoadedContent" class=" " style="width: 0px; height: 0px; overflow: hidden;"></div><div id="cboxLoadingOverlay" class=" " style=""></div><div id="cboxLoadingGraphic" class=" " style=""></div><div id="cboxTitle" class=" " style=""></div><div id="cboxCurrent" class=" " style=""></div><div id="cboxNext" class=" " style=""></div><div id="cboxPrevious" class=" " style=""></div><div id="cboxSlideshow" class=" " style=""></div><div id="cboxClose" class=" " style=""></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div>
+    <div class="note"></div>
+    <div id="cboxOverlay" style="display: none;"></div>
+    <div id="colorbox" class="" style="padding-bottom: 0px; padding-right: 0px; display: none;">
+        <div id="cboxWrapper" style="">
+            <div style="">
+                <div id="cboxTopLeft" style="float: left;"></div>
+                <div id="cboxTopCenter" style="float: left;"></div>
+                <div id="cboxTopRight" style="float: left;"></div>
+            </div>
+            <div style="clear: left;">
+                <div id="cboxMiddleLeft" style="float: left;"></div>
+                <div id="cboxContent" style="float: left;">
+                    <div id="cboxLoadedContent" class=" " style="width: 0px; height: 0px; overflow: hidden;"></div>
+                    <div id="cboxLoadingOverlay" class=" " style=""></div>
+                    <div id="cboxLoadingGraphic" class=" " style=""></div>
+                    <div id="cboxTitle" class=" " style=""></div>
+                    <div id="cboxCurrent" class=" " style=""></div>
+                    <div id="cboxNext" class=" " style=""></div>
+                    <div id="cboxPrevious" class=" " style=""></div>
+                    <div id="cboxSlideshow" class=" " style=""></div>
+                    <div id="cboxClose" class=" " style=""></div>
+                </div>
+                <div id="cboxMiddleRight" style="float: left;"></div>
+            </div>
+            <div style="clear: left;">
+                <div id="cboxBottomLeft" style="float: left;"></div>
+                <div id="cboxBottomCenter" style="float: left;"></div>
+                <div id="cboxBottomRight" style="float: left;"></div>
+            </div>
+        </div>
+        <div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div>
+    </div>
+    <form name="aspnetForm" method="post" action="https://academic.bits-pilani.ac.in/SWD/Student/View_Application_Status_Step1.aspx" id="aspnetForm" autocomplete="off">
+        <div>
+            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="Nope=">
+        </div>
+
+        <script type="text/javascript">
+            //<![CDATA[
+            var theForm = document.forms['aspnetForm'];
+            if (!theForm) {
+                theForm = document.aspnetForm;
+            }
+            function __doPostBack(eventTarget, eventArgument) {
+                if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                    theForm.__EVENTTARGET.value = eventTarget;
+                    theForm.__EVENTARGUMENT.value = eventArgument;
+                    theForm.submit();
+                }
+            }
+            //]]>
+        </script>
+
+
+        <script src="./index_files/WebResource.axd" type="text/javascript"></script>
+
+        <div>
+
+            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1A07E830">
+            <input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0">
+            <input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0">
+            <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+            <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+            <input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="">
+        </div>
+        <div id="main" align="center">
+            <table id="t1" border="0" cellpadding="0" cellspacing="0" width="100% " bgcolor="White">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div id="Div1" align="left">
+                                <div class="headerWrapper" style="background-position: right 0px;">
+                                    <div class="headerWrapperFix">
+                                        <h1 class="hidden"><span>
+</span>                                             BITS Pilani</h1>
+                                        <div class="logoWrapper">
+                                            <a href="https://academic.bits-pilani.ac.in/SWD/Student/View_Application_Status_Step1.aspx#" class="logo" target="_blank">
+                                                <img src="./index_files/BITS_Pilani_campus_logo.gif" alt="BITS Logo">
+                                            </a>
+                                        </div>
+
+                                        <ul class="mainNav">
+                                            <li><a href="https://academic.bits-pilani.ac.in/SWD/Student/Instructions.aspx">Apply
+                                                    For Leaves</a></li>
+                                            <li><a href="https://academic.bits-pilani.ac.in/SWD/Student/Downloads/Parent&#39;s_Consent_Form.pdf" target="_blank">Download Parent's Consent Form</a></li>
+                                            <li class=""><a href="https://academic.bits-pilani.ac.in/SWD/Student/View_Application_Status_Step1.aspx">Leaves
+                                                    Status</a></li>
+                                        </ul>
+
+
+                                        <ul class="siteInfo" style="right: 110px; width: 380px; top: 8px; height: 50px">
+                                            <li style="width: 435px">
+                                                <p class="siteLog" style="text-align: center">
+                                                    <br>
+                                                    <span style="font-size: 0.9em"><span style="font-size: 1.1em">Student Welfare Division
+                                                            (SWD)</span> </span>
+                                                </p>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td class="body_txt_in" style="height: 30px">
+                            <table id="UserInfo" style="width: 100%">
+                                <tbody>
+                                    <tr>
+                                        <td width="70%" align="left" style="margin-left:45px ">
+                                            <div contenteditable="true"> <span style="color:#211d70"><strong><span style="color:#211d70">&nbsp;&nbsp;&nbsp;&nbsp;W</span>elcome</strong>,</span>
+                                                <span id="ctl00_Name" style="display:inline-block;color:#211D70;font-weight:bold;width:469px;">Insert
+                                                    Name</span>
+                                            </div>
+
+
+                                        </td>
+                                        <td width="30%">
+                                            <table id="table_logout_details" width="100%">
+                                                <tbody>
+                                                    <tr>
+
+                                                        <td>
+                                                            <div id="div_logout" align="right" style="margin-right:20px">
+                                                                <span id="ctl00_lbl_current_date" style="color:#211D70;font-weight:bold;">Thursday, November 09, 2023</span>&nbsp;
+                                                                <span id="ctl00_lbl_spacer" style="color:#211D70;font-weight:bold;">|</span>&nbsp;
+
+                                                                <a class="footer" href="https://academic.bits-pilani.ac.in/SWD/Student/Logout.aspx"><strong><span style="font-size: 8pt">[Logout]</span></strong></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+
+
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="height: 300px">
+                                <tbody>
+                                    <tr>
+                                        <td id="contentpane" style="width: 100%; vertical-align: top">
+                                            <div align="center">
+
+
+                                                <table border="0" cellpadding="0" align="center" cellspacing="0" style="width: 788px;">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="height:10px"></td>
+                                                        </tr>
+                                                        <tr valign="top">
+                                                            <td class="head_already" width="100%" style="height: 20px; margin-right:150px">
+                                                                <div align="center">
+                                                                    Leaves Status
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="height:10px"></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div id="ctl00_ContentPlaceHolder1_main_div" align="center">
+                                                    <table border="0" class="body_txt_in" align="center" cellspacing="0" style="width: 98%; height: 100%">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="height:10px"></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td style="height: 30px; text-align: center;" colspan="3">
+                                                                    <div align="center">
+                                                                        <div>
+                                                                            <table cellspacing="0" rules="all" border="1" id="ctl00_ContentPlaceHolder1_DG1" style="border-color:#CCCCCC;border-width:1px;border-style:Solid;width:98%;border-collapse:collapse;">
+                                                                                <tbody>
+                                                                                    <tr align="left" valign="middle" style="color:Black;background-color:#F4F4F4;border-color:#CCCCCC;border-width:1px;border-style:solid;font-weight:bold;">
+                                                                                        <th scope="col" style="width:50px;">Sr No.
+                                                                                        </th>
+                                                                                        <th scope="col">IDNO</th>
+                                                                                        <th scope="col">Name</th>
+                                                                                        <th scope="col">Hostel</th>
+                                                                                        <th scope="col">Room No.</th>
+                                                                                        <th scope="col">Departure Date
+                                                                                        </th>
+                                                                                        <th scope="col">Return Date</th>
+                                                                                        <th scope="col">Leave Reason
+                                                                                        </th>
+                                                                                        <th scope="col">Application
+                                                                                            Status</th>
+                                                                                        <th scope="col">Leaves Applied
+                                                                                            On</th>
+                                                                                        <th scope="col" style="width:90px;">Action
+                                                                                        </th>
+                                                                                        <th scope="col" style="width:160px;">
+                                                                                            Download Leave Approval</th>
+                                                                                    </tr>
+                                                                                    <tr align="left" valign="middle" style="background-color:White;">
+                                                                                        <td align="left" valign="top" style="border-color:Black;" contenteditable="true">
+                                                                                            1
+                                                                                        </td>
+                                                                                        <td style="border-color:Black;" contenteditable="true">
+                                                                                            2027A9PS6969P</td>
+                                                                                        <td style="border-color:Black;" contenteditable="true">
+                                                                                            YOUR NAME</td>
+                                                                                        <td style="border-color:Black;" contenteditable="true">
+                                                                                            Meera Bhawan</td>
+                                                                                        <td style="border-color:Black;" contenteditable="true">
+                                                                                            6969</td>
+                                                                                        <td style="border-color:Black;" contenteditable="true">
+                                                                                            29-Feb-2022</td>
+                                                                                        <td style="border-color:Black;" contenteditable="true">
+                                                                                            30-Feb-2022</td>
+                                                                                        <td style="border-color:Black;" contenteditable="true">
+                                                                                            Leave reason in one
+                                                                                            sentence</td>
+                                                                                        <td style="color:DarkGreen;border-color:Black;font-weight:bold;" contenteditable="true">
+                                                                                            Approved</td>
+                                                                                        <td style="border-color:Black;" contenteditable="true">
+                                                                                            31-Feb-2022</td>
+                                                                                        <td style="border-color:Black;">
+                                                                                            <a href="https://academic.bits-pilani.ac.in/SWD/Student/View_Application_Status_Processing.aspx"><b>View
+                                                                                                    Details</b></a>
+                                                                                        </td>
+                                                                                        <td style="border-color:Black;">
+                                                                                            <div id="ctl00_ContentPlaceHolder1_DG1_ctl03_Div_Leave_Approval_Slip">
+
+
+
+                                                                                                <a href="https://academic.bits-pilani.ac.in/SWD/Student/Download_Leave_Approval_PreProcessing.aspx" target="_blank"><b>Download
+                                                                                                        Leave
+                                                                                                        Approval</b></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+
+
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td style="height: 30px;" colspan="2">
+                                                                </td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </div><br>
+                                                <br><br>
+
+
+
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+        <script type="text/javascript">
+            //<![CDATA[
+
+            theForm.oldSubmit = theForm.submit;
+            theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+            theForm.oldOnSubmit = theForm.onsubmit;
+            theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+            //]]>
+        </script>
+    </form>
+    <script type="text/javascript" src="file:///Z:/Downloads/jquery-3.3.1.js"></script>
+    <script src="file:///Z:/Downloads/js/YourExternalJQueryScripts.js"></script>
+    <script>
+        // Get all the links in the table row
+        var links = document.querySelectorAll("td a");
+
+        // Loop through the links and add an event listener
+        for (var i = 0; i < links.length; i++) {
+            links[i].addEventListener("click", function (e) {
+                // Prevent the default action of the link
+                e.preventDefault();
+                // Display the popup message
+                alert("Error! Please Relogin");
+            });
+        }
+    </script>
+
+
+
+</body></html>
